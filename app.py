@@ -10,7 +10,7 @@ def main():
             text_to_speech(response)
 
 
-            audio_file= open("speech3.mp3", "rb"):
+            audio_file= open("speech3.mp3", "rb")
             audio_bytes= audio_file.read()
 
             st.text_area(label="Response:",value=response,height=350)
